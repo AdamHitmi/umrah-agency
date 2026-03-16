@@ -1,0 +1,224 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "packages": "Packages",
+    "about": "A propos",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "admin": "Admin"
+  },
+  "common": {
+    "bookNow": "Reserver",
+    "viewPackages": "Voir les packages",
+    "whatsapp": "WhatsApp",
+    "callNow": "Appeler",
+    "learnMore": "En savoir plus",
+    "featured": "A la une",
+    "directFlight": "Vol direct",
+    "visaSupport": "Assistance visa",
+    "roundTrip": "Billet aller-retour",
+    "accommodation": "Hebergement",
+    "from": "A partir de",
+    "days": "jours",
+    "send": "Envoyer",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "loading": "Chargement...",
+    "success": "Succes",
+    "viewDetails": "Voir le detail",
+    "startingPrice": "Tarif a partir de",
+    "office": "Bureau",
+    "language": "Langue",
+    "requestBooking": "Demande de reservation",
+    "contactUs": "Nous contacter",
+    "manage": "Gerer"
+  },
+  "home": {
+    "heroEyebrow": "Voyages Omra premium pour les voyageurs marocains",
+    "routeTitle": "Parcours inspire de l'affiche",
+    "routeText": "Depart raffine depuis Casablanca vers Medine, Djeddah et La Mecque, dans une experience organisee et sereine.",
+    "featuredPackage": "Package vedette",
+    "whyChooseTitle": "La confiance se joue dans les details",
+    "whyChooseItems": {
+      "0Title": "Organisation precise",
+      "0Text": "Planning clair, communication rapide et accompagnement avant et pendant le voyage.",
+      "1Title": "Confort choisi",
+      "1Text": "Hotels et niveaux de chambres adaptables selon votre budget et votre preference.",
+      "2Title": "Service humain",
+      "2Text": "Une equipe attentive a la fois a l'experience spirituelle et au confort pratique."
+    },
+    "testimonials": "Ils nous font confiance",
+    "faqPreview": "Questions frequentes avant de reserver",
+    "ctaTitle": "Lancez votre projet Omra avec serenite",
+    "ctaText": "Contactez-nous maintenant pour verifier les places, les chambres et les modalites de paiement."
+  },
+  "packages": {
+    "title": "Packages Omra",
+    "description": "Explorez les offres disponibles avec des filtres simples pour comparer dates, vols directs et tarifs.",
+    "filters": {
+      "month": "Mois",
+      "direct": "Vol direct uniquement",
+      "price": "Prix maximum",
+      "roomType": "Type de chambre",
+      "all": "Tous"
+    },
+    "empty": "Aucun package ne correspond aux filtres actuels."
+  },
+  "packageDetail": {
+    "includes": "Le programme inclut",
+    "notes": "Notes importantes",
+    "pricing": "Tableau des tarifs",
+    "route": "Itineraire",
+    "visa": "Visa Omra",
+    "visaText": "Nous vous aidons a preparer le dossier de visa Omra et a suivre les etapes administratives requises.",
+    "hotels": "Options d'hebergement",
+    "summary": "Resume du voyage",
+    "travelDates": "Dates de voyage",
+    "origin": "Ville de depart",
+    "destination": "Destination",
+    "mobileBook": "Reserver ce package"
+  },
+  "about": {
+    "title": "A propos de l'agence",
+    "subtitle": "Une expertise operationnelle au service d'une Omra sereine pour les voyageurs marocains.",
+    "valuesTitle": "Nos valeurs",
+    "values": {
+      "0Title": "Transparence",
+      "0Text": "Nous expliquons clairement les details et gardons le client informe de toute evolution.",
+      "1Title": "Soin",
+      "1Text": "Nous accordons de l'importance au confort, a l'organisation et au respect a chaque etape.",
+      "2Title": "Professionnalisme",
+      "2Text": "Gestion structuree, formulaires clairs et reponse rapide aux reservations et demandes."
+    }
+  },
+  "contact": {
+    "title": "Contacter l'agence",
+    "subtitle": "Notre equipe a Casablanca est disponible pour repondre a vos questions et recevoir vos demandes de reservation.",
+    "formTitle": "Envoyer un message",
+    "infoTitle": "Coordonnees",
+    "mapPlaceholder": "Emplacement reserve pour une carte du bureau ou un lien Google Maps."
+  },
+  "faq": {
+    "title": "Questions frequentes",
+    "subtitle": "Des reponses claires sur les documents, le visa, la reservation et les details du voyage."
+  },
+  "forms": {
+    "fullName": "Nom complet",
+    "phone": "Telephone",
+    "email": "Email",
+    "city": "Ville",
+    "roomType": "Type de chambre",
+    "travelersCount": "Nombre de voyageurs",
+    "notes": "Notes",
+    "subject": "Sujet",
+    "message": "Message",
+    "successBooking": "Votre demande de reservation a bien ete envoyee. Nous vous contacterons rapidement.",
+    "successContact": "Votre message a bien ete envoye.",
+    "submitBooking": "Envoyer la demande",
+    "submitContact": "Envoyer le message"
+  },
+  "footer": {
+    "tagline": "Voyages Omra premium avec accompagnement fiable depuis Casablanca.",
+    "rights": "Tous droits reserves"
+  },
+  "marketing": {
+    "banner": {
+      "premiumJourney": "Voyage premium",
+      "morocco": "Maroc",
+      "casablancaSupport": "Accompagnement depuis Casablanca",
+      "spiritual": "Spirituel",
+      "comfortPlanning": "Une Omra pensee pour le confort",
+      "luxury": "Luxe",
+      "elegantDetails": "Des details soignes a chaque etape"
+    },
+    "home": {
+      "casablancaConcierge": "Conciergerie Casablanca",
+      "duration": "Duree",
+      "stops": "Etapes",
+      "visa": "Visa",
+      "included": "Inclus",
+      "notIncluded": "Non",
+      "serviceStyle": "Style de service",
+      "serviceStyleText": "Elegant, clair et reactif",
+      "support": "Support",
+      "supportText": "WhatsApp et telephone avant le depart",
+      "experience": "Experience",
+      "experienceText": "Parcours spirituel avec confort selectionne",
+      "yes": "Oui",
+      "no": "Non",
+      "route": "Parcours"
+    },
+    "countdown": {
+      "title": "Avant le depart",
+      "description": "Compte a rebours en direct jusqu'au prochain depart.",
+      "days": "jours",
+      "hours": "heures",
+      "minutes": "minutes"
+    },
+    "filters": {
+      "subtitle": "Filtres interactifs pour trouver rapidement le bon package.",
+      "results": "{count} resultats",
+      "reset": "Reinitialiser"
+    },
+    "packageCard": {
+      "flexibleProgram": "Formule flexible",
+      "umrahVisa": "Visa Omra",
+      "selectedAccommodation": "Hebergement choisi",
+      "premiumDirectDeparture": "Depart premium direct"
+    },
+    "trustBadges": {
+      "directFlight": {
+        "eyebrow": "Trajet raccourci",
+        "detail": "Un depart direct qui reduit la fatigue et fluidifie le voyage."
+      },
+      "visaSupport": {
+        "eyebrow": "Accompagnement visa",
+        "detail": "Une equipe qui suit le dossier visa et clarifie chaque etape."
+      },
+      "roundTrip": {
+        "eyebrow": "Coordination complete",
+        "detail": "Billet aller-retour inclus pour un parcours plus serein."
+      },
+      "accommodation": {
+        "eyebrow": "Sejour selectionne",
+        "detail": "Hebergement adaptable selon la categorie avec une attention au confort."
+      }
+    },
+    "route": {
+      "progress": "Progression",
+      "stepStatus": "Etape {current} sur {total}",
+      "stopLabel": "Arret {index}",
+      "step": "Etape",
+      "stops": "Etapes",
+      "code": "Code",
+      "detail0": "Depart depuis Casablanca avec un accompagnement clair avant l'embarquement.",
+      "detail1": "Une etape a Medine dans une ambiance calme avec une organisation fluide.",
+      "detail2": "Une liaison via Djeddah avec prise en charge coordonnee a l'arrivee.",
+      "detail3": "Arrivee a La Mecque avec un sejour aligne sur le parcours spirituel."
+    },
+    "pricing": {
+      "intro": "Choisissez la chambre puis comparez les paliers tarifaires.",
+      "tierDescription": "Option {index} modifiable par l'administration selon l'hotel ou le niveau choisi.",
+      "selectedOffer": "Offre selectionnee",
+      "selectedDescription": "Selectionnez ce niveau puis passez au formulaire pour envoyer votre demande rapidement.",
+      "benefit0": "Nom du palier modifiable depuis l'admin",
+      "benefit1": "Tarifs clairs en dirham marocain",
+      "benefit2": "Acces direct au formulaire de reservation",
+      "cta": "Choisir cette offre"
+    }
+  },
+  "admin": {
+    "dashboard": "Tableau de bord",
+    "packages": "Packages",
+    "bookings": "Reservations",
+    "contacts": "Contacts",
+    "testimonials": "Temoignages",
+    "faqs": "FAQ",
+    "settings": "Parametres",
+    "loginTitle": "Connexion admin",
+    "loginSubtitle": "Utilisez vos identifiants pour acceder au back-office.",
+    "logout": "Deconnexion"
+  }
+}

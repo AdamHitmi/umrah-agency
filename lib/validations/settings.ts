@@ -1,0 +1,30 @@
+import {z} from "zod";
+
+export const siteSettingsSchema = z.object({
+  agencyNameAr: z.string().min(2),
+  agencyNameFr: z.string().min(2),
+  email: z.string().email(),
+  phone: z.string().min(6),
+  whatsapp: z.string().min(6),
+  cityAr: z.string().min(2),
+  cityFr: z.string().min(2),
+  addressAr: z.string().min(5),
+  addressFr: z.string().min(5),
+  officeHoursAr: z.string().min(5),
+  officeHoursFr: z.string().min(5),
+  facebookUrl: z.string().url().or(z.literal("")),
+  instagramUrl: z.string().url().or(z.literal("")),
+  tiktokUrl: z.string().url().or(z.literal("")),
+  heroTitleAr: z.string().min(5),
+  heroTitleFr: z.string().min(5),
+  heroSubtitleAr: z.string().min(10),
+  heroSubtitleFr: z.string().min(10),
+  aboutIntroAr: z.string().min(10),
+  aboutIntroFr: z.string().min(10),
+  promiseAr: z.string().min(10),
+  promiseFr: z.string().min(10),
+  whyChooseTitleAr: z.string().min(5),
+  whyChooseTitleFr: z.string().min(5),
+  whyChooseTextAr: z.string().min(10),
+  whyChooseTextFr: z.string().min(10)
+});

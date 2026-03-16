@@ -1,0 +1,5 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M120 18L162 42V90L204 114V162L162 186V198L120 222L78 198V186L36 162V114L78 90V42L120 18Z" stroke="#C8A84A" stroke-opacity="0.55" stroke-width="1.2"/>
+  <path d="M120 52L150 69V103L180 120V154L150 171V188L120 205L90 188V171L60 154V120L90 103V69L120 52Z" stroke="#F7EDD0" stroke-opacity="0.25" stroke-width="1"/>
+  <path d="M120 86L138 96V116L156 126V146L138 156V176L120 186L102 176V156L84 146V126L102 116V96L120 86Z" stroke="#C8A84A" stroke-opacity="0.35" stroke-width="1"/>
+</svg>

@@ -7,10 +7,17 @@ import {
 } from "@/lib/auth/session";
 import {adminSessionCookieName} from "@/lib/constants";
 import {prisma} from "@/lib/db";
+import {ensureTrustedOrigin} from "@/lib/security";
 import {sanitizeText} from "@/lib/sanitize";
 import {adminLoginSchema} from "@/lib/validations/auth";
 
 export async function POST(request: Request) {
+  const originError = ensureTrustedOrigin(request);
+
+  if (originError) {
+    return originError;
+  }
+
   try {
     const payload = adminLoginSchema.parse(await request.json());
     const email = sanitizeText(payload.email).toLowerCase();
@@ -21,12 +28,14 @@ export async function POST(request: Request) {
     });
 
     if (!user) {
+      await new Promise((resolve) => setTimeout(resolve, 350));
       return NextResponse.json({error: "Invalid credentials"}, {status: 401});
     }
 
     const valid = await comparePassword(payload.password, user.passwordHash);
 
     if (!valid) {
+      await new Promise((resolve) => setTimeout(resolve, 350));
       return NextResponse.json({error: "Invalid credentials"}, {status: 401});
     }
 

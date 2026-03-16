@@ -13,7 +13,7 @@ export async function PATCH(
   request: Request,
   {params}: {params: Promise<{id: string}>}
 ) {
-  const auth = await requireAdminApiSession();
+  const auth = await requireAdminApiSession(request);
 
   if ("error" in auth) {
     return auth.error;

@@ -2,10 +2,17 @@ import {NextResponse} from "next/server";
 
 import {prisma} from "@/lib/db";
 import {sendContactNotification} from "@/lib/email";
+import {ensureTrustedOrigin} from "@/lib/security";
 import {sanitizeText} from "@/lib/sanitize";
 import {contactSubmissionSchema} from "@/lib/validations/contact";
 
 export async function POST(request: Request) {
+  const originError = ensureTrustedOrigin(request);
+
+  if (originError) {
+    return originError;
+  }
+
   try {
     const payload = contactSubmissionSchema.parse(await request.json());
     const fullName = sanitizeText(payload.fullName);

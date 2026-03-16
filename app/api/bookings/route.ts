@@ -3,10 +3,17 @@ import {NextResponse} from "next/server";
 import {prisma} from "@/lib/db";
 import {sendBookingNotification} from "@/lib/email";
 import {formatDisplayRange} from "@/lib/format";
+import {ensureTrustedOrigin} from "@/lib/security";
 import {sanitizeNullableText, sanitizeText} from "@/lib/sanitize";
 import {bookingRequestSchema} from "@/lib/validations/booking";
 
 export async function POST(request: Request) {
+  const originError = ensureTrustedOrigin(request);
+
+  if (originError) {
+    return originError;
+  }
+
   try {
     const payload = bookingRequestSchema.parse(await request.json());
     const packageId = sanitizeText(payload.packageId);

@@ -7,7 +7,7 @@ import {sanitizeNullableText, sanitizeText} from "@/lib/sanitize";
 import {siteSettingsSchema} from "@/lib/validations/settings";
 
 export async function PATCH(request: Request) {
-  const auth = await requireAdminApiSession();
+  const auth = await requireAdminApiSession(request);
 
   if ("error" in auth) {
     return auth.error;

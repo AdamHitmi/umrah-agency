@@ -7,7 +7,7 @@ import {sanitizeText} from "@/lib/sanitize";
 import {testimonialSchema} from "@/lib/validations/testimonial";
 
 export async function POST(request: Request) {
-  const auth = await requireAdminApiSession();
+  const auth = await requireAdminApiSession(request);
 
   if ("error" in auth) {
     return auth.error;
